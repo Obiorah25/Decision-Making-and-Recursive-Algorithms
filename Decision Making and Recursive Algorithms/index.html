@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leap Year Checker</title>
+  </head>
+  <body>
+    <h1>Leap Year Checker</h1>
+    <label for="yearInput">Enter a year:</label>
+    <input type="number" id="yearInput" placeholder="Enter year" />
+    <button onclick="checkLeapYear()">Check</button>
+    <p id="result"></p>
+
+    <h1>Power Function Calculator</h1>
+    <label for="baseInput">Base:</label>
+    <input type="number" id="baseInput" placeholder="Enter base" />
+    <br />
+    <label for="exponentInput">Exponent:</label>
+    <input type="number" id="exponentInput" placeholder="Enter exponent" />
+    <br />
+    <button onclick="calculatePower()">Calculate</button>
+    <p id="result"></p>
+
+    <h1>Ticket Pricing Calculator</h1>
+    <label for="ticketType">Select Ticket Type:</label>
+    <select id="ticketType">
+      <option value="adult">Adult - $20</option>
+      <option value="child">Child - $10</option>
+      <option value="senior">Senior - $15</option>
+    </select>
+    <br />
+    <label for="quantity">Number of Tickets:</label>
+    <input type="number" id="quantity" min="1" placeholder="Enter quantity" />
+    <br />
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <p id="result"></p>
+
+    <h1>Palindrome Checker</h1>
+    <label for="inputString">Enter a string:</label>
+    <input type="text" id="inputString" placeholder="Enter string" />
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="result"></p>
+
+    <script src="lib/index.js"></script>
+  </body>
+</html>
